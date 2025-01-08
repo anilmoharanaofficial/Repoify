@@ -20,8 +20,8 @@ Repoify is a custom-built **Version Control System (VCS)** created as a fun lear
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anilmoharanaofficial/VCS.git
-   cd custom-vcs
+   git clone https://github.com/anilmoharanaofficial/Repoify.git
+   cd Repoify
    ```
 2. Install dependencies:
    ```bash
