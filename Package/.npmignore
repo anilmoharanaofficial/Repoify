@@ -1,0 +1,48 @@
+# Ignore all logs
+*.log
+
+# Ignore node_modules (not needed in the published package)
+node_modules/
+
+# Ignore test files
+test/
+*.spec.js
+*.test.js
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files not relevant to the package
+*.config.js
+.vscode/
+.idea/
+.nyc_output/
+coverage/
+
+# Ignore personal/project files
+*.md~   # Any backup files for markdown
+*.bak
+*.swp
+
+# Ignore your git folder
+.git/
+.gitignore
+
+# Ignore anything related to npm debugging
+npm-debug.log*
+
+# Exclude README if not relevant
+# (Uncomment if you don't want to publish README)
+# README.md
+
+# Exclude directories or files not needed for the package
+examples/
+docs/
+scripts/
+bin/*.bak

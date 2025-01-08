@@ -1,5 +1,5 @@
 {
-  "name": "repoify",
+  "name": "repoify-js",
   "version": "1.0.0",
   "description": "Repoify is a custom-built Version Control System (VCS) created as a fun learning project to explore core concepts of version control, file management, and cloud storage integration using modern technologies.",
   "type": "module",
