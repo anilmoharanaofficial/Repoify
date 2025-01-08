@@ -1,0 +1,30 @@
+{
+  "name": "repoify",
+  "version": "1.0.0",
+  "description": "Repoify is a custom-built Version Control System (VCS) created as a fun learning project to explore core concepts of version control, file management, and cloud storage integration using modern technologies.",
+  "type": "module",
+  "main": "./bin/vcs.js",
+  "bin": {
+    "repoify": "./bin/vcs.js"
+  },
+  "scripts": {
+    "test": "node bin/vcs.js --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilmoharanaofficial/Repoify.git"
+  },
+  "keywords": [
+    "Repoify",
+    "VCS"
+  ],
+  "author": "Anil Moharana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilmoharanaofficial/Repoify/issues"
+  },
+  "homepage": "https://github.com/anilmoharanaofficial/Repoify#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
