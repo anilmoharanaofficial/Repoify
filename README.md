@@ -43,4 +43,4 @@ Repoify is a custom-built **Version Control System (VCS)** created as a fun lear
 This project is **still under development** and **not ready for production use**.
 
 ### License
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
