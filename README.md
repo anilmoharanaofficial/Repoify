@@ -1,6 +1,6 @@
 ![npm](https://img.shields.io/npm/v/repoify-js)
 
-# My Custom Version Control System (VCS)
+# Repoify - A Custom Version Control System (VCS)
 Repoify is a custom-built **Version Control System (VCS)** created as a fun learning project to explore core concepts of version control, file management, and cloud storage integration using modern technologies.
 
 ### Key Features (In Progress)
