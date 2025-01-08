@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/repoify-js)
+![npm](https://img.shields.io/npm/v/repoify-js) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Repoify - A Custom Version Control System (VCS)
 Repoify is a custom-built **Version Control System (VCS)** created as a fun learning project to explore core concepts of version control, file management, and cloud storage integration using modern technologies.
