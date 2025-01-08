@@ -13,7 +13,8 @@ import { isLoggedIn } from "../middleware/authMiddleware.js";
 
 const router = Router();
 
-/***************************  USER ROUTES  ***************************/
+/***************************  REPO ROUTES  ***************************/
+
 router.get("/", isLoggedIn, fetchRepositoriesForCurrentUser);
 router.post("/create", isLoggedIn, createRepository);
 router.patch("/set-visibility", toggleVisibilityById);
