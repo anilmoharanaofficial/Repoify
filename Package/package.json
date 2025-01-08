@@ -1,6 +1,6 @@
 {
   "name": "repoify-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Repoify is a custom-built Version Control System (VCS) created as a fun learning project to explore core concepts of version control, file management, and cloud storage integration using modern technologies.",
   "type": "module",
   "main": "./bin/vcs.js",
@@ -25,6 +25,11 @@
   },
   "homepage": "https://github.com/anilmoharanaofficial/Repoify#readme",
   "dependencies": {
+    "axios": "^1.7.9",
+    "axios-cookiejar-support": "^5.0.5",
+    "inquirer": "^12.3.0",
+    "tough-cookie": "^5.0.0",
+    "uuid": "^11.0.4",
     "yargs": "^17.7.2"
   }
 }

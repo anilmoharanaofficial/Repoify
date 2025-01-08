@@ -1,5 +1,6 @@
 import path from "path";
 import fs from "fs/promises";
+import { exec } from "child_process";
 
 const initRepo = async () => {
   const repoPath = path.resolve(process.cwd(), ".repoify");
@@ -17,6 +18,15 @@ const initRepo = async () => {
     );
 
     console.log(`Repository initialized successfully`);
+
+    // Hidden .repoify folder on Windows
+    if (process.platform === "win32") {
+      exec(`attrib +h "${repoPath}"`, (error) => {
+        if (error) {
+          console.error("Failed to hide the folder on Windows:", error.message);
+        }
+      });
+    }
   } catch (error) {
     console.error("Error initializing repository:", error.message);
   }
